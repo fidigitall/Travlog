@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+#login {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+}
+
+#signUp {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #6a00f4;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+body {
+    color: white; 
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    position: relative;
+}
+
+.left-section {
+    width: 50%;
+    position: relative;
+}
+
+
+.explore-btn {
+    background-color: #fff;
+    color: #ff4081;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 30px;
+    line-height: 1.2;
+}
+
+h1 span {
+    color: #ff4081;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.cta-buttons {
+    margin-top: 40px;
+}
+
+.cta {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.get-started {
+    background-color: #6a00f4;
+    color: #fff;
+}
+
+.watch-demo {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #111;
+}
+
+.right-section {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.image {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+
+.top-places-btn {
+    background-color: #fff;
+    color: #111;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.left-section.fa-solid fa-bag-shopping{
+    color: #ff4081;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card {
+    background-color: white; /* Kartın arka plan rengini beyaz yapar */
+    border-radius: 10px; /* Kartın köşelerini yuvarlar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Kartın altına gölge ekler */
+    padding: 20px; /* Kartın iç kısmına boşluk ekler */
+    max-width: 400px; /* Kartın genişliğini sınırlar */
+    margin: 20px; /* Kartın etrafına boşluk ekler */
+    text-align: center; /* Kart içindeki metni ortalar */
+}
+
+h1 {
+    font-size: 24px; /* Başlığın yazı boyutunu ayarlar */
+    margin-bottom: 10px; /* Başlık altına boşluk ekler */
+    color: #333; /* Başlık rengini ayarlar */
+}
+
+p {
+    font-size: 16px; /* Paragrafın yazı boyutunu ayarlar */
+    color: #666; /* Paragraf rengini ayarlar */
+}
